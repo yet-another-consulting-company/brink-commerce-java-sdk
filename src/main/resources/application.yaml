@@ -1,0 +1,27 @@
+bsg:
+  config:
+    path: /mnt/secrets/reference4j
+spring:
+  main:
+    banner:
+      location: classpath:banner.txt
+    allow-bean-definition-overriding: true
+  datasource:
+    maximum-pool-size: 2
+logging:
+  level:
+    org:
+      apache:
+        kafka: WARN
+      springframework:
+        kafka: WARN
+kafka:
+  consumer_group: iLookB4DrinkJava
+  enable_auto_commit: false
+  consumer: iLookB4DrinkJava-consumer
+  producer: iLookB4DrinkJava-producer
+  topic:
+    iLookB4DrinkJava: iLookB4DrinkJava
+springdoc:
+  api-docs:
+    path: /api-docs
