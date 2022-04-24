@@ -13,6 +13,9 @@ All Brink value objects are immutable.
 2. [Product](#Product-Information)
 3. [Price](#Price)
 4. [Stock](#Stock)
+5. [Store](#Store)
+6. [Discount](#Discount)
+7. [Error handling](#Error-handling)
 
 
 ## Include the artifact in you project
