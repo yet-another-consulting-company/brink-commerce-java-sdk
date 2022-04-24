@@ -1,5 +1,5 @@
 # Brink Commerce API - Java SDK
-An open-source SDK in Java for [Brink Commerce](brinkcommerce.com). The SDk mirrors the
+An open-source SDK in Java for [Brink Commerce](brinkcommerce.com). The SDK mirrors the
 HTTP API and uses `java.net.http` for communication, no additional logic has
 been added to the API. **Java 17 is required**. The official Brink documentation can be 
 found [here](https://docs.brinkcommerce.com).
@@ -7,6 +7,9 @@ found [here](https://docs.brinkcommerce.com).
 You can find a Postman collection for Brink API [here](https://github.com/yet-another-consulting-company/brink-api-postman).
 
 All Brink value objects are immutable.
+
+# Table of Contents
+1. [Price](#Price)
 
 
 ## Include the artifact in you project
