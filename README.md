@@ -8,14 +8,15 @@ You can find a Postman collection for Brink API [here](https://github.com/yet-an
 
 All Brink value objects are immutable.
 
-# Table of Contents
-1. [API Module](#API-Module)
-2. [Product](#Product-Information)
-3. [Price](#Price)
-4. [Stock](#Stock)
-5. [Store](#Store)
-6. [Discount](#Discount)
-7. [Error handling](#Error-handling)
+## Content
+1. [Include the artifact in you project](#Include-the-artifact-in-you-project)
+2. [API Module](#API-Module)
+3. [Product](#Product-Information)
+4. [Price](#Price)
+5. [Stock](#Stock)
+6. [Store](#Store)
+7. [Discount](#Discount)
+8. [Error handling](#Error-handling)
 
 
 ## Include the artifact in you project
