@@ -10,7 +10,7 @@ All Brink value objects are immutable.
 
 # Table of Contents
 1. [API Module](#API Module)
-2. [Product](#Product Information)
+2. [Product](#'Product Information')
 3. [Price](#Price)
 4. [Stock](#Stock)
 
