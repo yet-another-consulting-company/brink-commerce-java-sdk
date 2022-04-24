@@ -9,7 +9,10 @@ You can find a Postman collection for Brink API [here](https://github.com/yet-an
 All Brink value objects are immutable.
 
 # Table of Contents
-1. [Price](#Price)
+1. [API Module](#Include the artifact in you project)
+2. [Product](#Product)
+3. [Price](#Price)
+4. [Stock](#Stock)
 
 
 ## Include the artifact in you project
