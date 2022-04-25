@@ -1,5 +1,5 @@
 # Brink Commerce API - Java SDK
-An open-source SDK in Java for [Brink Commerce](brinkcommerce.com). The SDK mirrors the
+An unofficial open-source SDK in Java for [Brink Commerce](brinkcommerce.com). The SDK mirrors the
 HTTP API and uses `java.net.http` for communication, no additional logic has
 been added to the API. **Java 17 is required**. The official Brink documentation can be 
 found [here](https://docs.brinkcommerce.com).
