@@ -205,6 +205,9 @@ final BrinkDiscount discount = BrinkDiscount.builder()
         .withIncludedProducts(Stream.of(product).map(BrinkProduct::id).toList())
         .withExcludedProducts(new ArrayList<>())
         .build();
+
+brinkApi.discount().create(discount);
+
 ```
 
 ## Error handling
