@@ -20,6 +20,7 @@ All Brink value objects are immutable.
 
 
 ## Include the artifact in you project
+This SDK is available on Maven Central Repository, which means to can import the SDK as an artifact.
 
 ### Maven
 Add the following to your `pom.xml`:
@@ -202,7 +203,8 @@ final BrinkDiscount discount = BrinkDiscount.builder()
         .withEnd(Instant.now())
         .withCode("<code>")
         .withDiscountPercentage(50)
-        .withIncludedProducts(Stream.of(product).map(BrinkProduct::id).toList())
+        .withIncludedProducts(Stream.of(product).map(BrinkProduct::id).toList())dev.yacc:brink-commerce-api:0.0.1-SNAPSHOT'
+}
         .withExcludedProducts(new ArrayList<>())
         .build();
 
